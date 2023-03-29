@@ -1,0 +1,125 @@
+/* FULL-WIDTH TABLES */
+table {
+    width:100%;
+}
+
+/* CAROUSEL */
+.carousel {
+
+    margin: 0 auto;
+    padding: 40px;
+
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.carousel > * {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.carousel figure {
+    margin: 0;
+    width: 400px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transform-origin: 50% 50% -482.84271px;
+    transform-origin: 50% 50% -482.84271px;
+}
+
+.carousel figure img {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+.carousel figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform-origin: 50% 50% -482.84271px;
+    transform-origin: 50% 50% -482.84271px;
+}
+
+.carousel figure img:nth-child(1) {
+    z-index: 2;
+}
+
+.carousel figure img:nth-child(2) {
+    -webkit-transform: rotateY(0.7854rad);
+    transform: rotateY(0.7854rad);
+}
+
+.carousel figure img:nth-child(3) {
+    -webkit-transform: rotateY(1.5708rad);
+    transform: rotateY(1.5708rad);
+}
+
+.carousel figure img:nth-child(4) {
+    -webkit-transform: rotateY(2.35619rad);
+    transform: rotateY(2.35619rad);
+}
+
+.carousel figure img:nth-child(5) {
+    -webkit-transform: rotateY(3.14159rad);
+    transform: rotateY(3.14159rad);
+}
+
+.carousel figure img:nth-child(6) {
+    -webkit-transform: rotateY(3.92699rad);
+    transform: rotateY(3.92699rad);
+}
+
+.carousel figure img:nth-child(7) {
+    -webkit-transform: rotateY(4.71239rad);
+    transform: rotateY(4.71239rad);
+}
+
+.carousel figure img:nth-child(8) {
+    -webkit-transform: rotateY(5.49779rad);
+    transform: rotateY(5.49779rad);
+}
+
+
+/* TEXT ROTATION */
+.rolodex {
+	line-height: 1rem;
+	overflow: hidden;
+}
+.rolodex > p,
+.rolodex ul,
+.rolodex li {
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+
+.rolodex li + li {
+	clear: left;
+}
+.rolodex .roll {
+	font-weight: bold;
+	transition: 2s cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+.rotate > .wrap { 
+	text-decoration: underline;
+	border-right: 0.08em solid #666;
+}

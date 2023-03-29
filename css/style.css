@@ -63,7 +63,7 @@ body { display: flex; flex-direction: column; }
 
 /*** BASIC LAYOUT: HEADER ***/
 
-#header { background: #2EAE9B; }
+#header { background: #005A94; }
 
 #title, #logo {
     float: left;
@@ -96,7 +96,7 @@ body { display: flex; flex-direction: column; }
     font-weight: bold;
 }
 
-#nav a, #nav-toggle { color: #afe1da; }
+#nav a, #nav-toggle { color: #aaa; }
 #nav .active a, #nav a:hover, #nav-toggle:hover { color: #fff; }
 
 #nav-toggle { display: none; }
@@ -195,7 +195,7 @@ p, hr, table, .table-responsive, ol, ul, dl, dd, pre, blockquote, fieldset {
 }
 
 a {
-    color: #2EAE9B;
+    color: #005A94;
     text-decoration: none;
     -webkit-transition: color .2s ease-in;
             transition: color .2s ease-in;
@@ -346,8 +346,8 @@ input:not([type="checkbox"]):not([type="radio"]), button, select, textarea {
     font-size: 1rem;
 }
 input:focus:not([type="checkbox"]):not([type="radio"]), button:focus, select:focus, textarea:focus {
-    border-color: #2EAE9B;
-    box-shadow: 0 0 8px #2EAE9B;
+    border-color: #005A94;
+    box-shadow: 0 0 8px #005A94;
 }
 input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, button:focus,
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
